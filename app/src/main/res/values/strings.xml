@@ -9,4 +9,13 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <!-- User Selection Buttons -->
+    <string name="user_selection_button_label">Select User Type:</string>
+    <string name="select_user_type_owner_button">Owner</string>
+    <string name="select_user_type_secretary_button">Secretary</string>
+    <string name="select_user_type_supervisor_button">Supervisor</string>
+    <string name="select_user_type_mechanic_button">Mechanic</string>
+    <string name="colonial_logo_content_description">Colonial Logo</string>
+
+
 </resources>
