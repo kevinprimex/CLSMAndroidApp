@@ -17,5 +17,7 @@
     <string name="select_user_type_mechanic_button">Mechanic</string>
     <string name="colonial_logo_content_description">Colonial Logo</string>
 
+    <string name="user_selected_button_label">Selected User Type: </string>
+
 
 </resources>

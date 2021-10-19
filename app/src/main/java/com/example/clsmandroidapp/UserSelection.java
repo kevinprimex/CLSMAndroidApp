@@ -14,7 +14,6 @@ import com.example.clsmandroidapp.ui.login.LoginActivity;
 public class UserSelection extends AppCompatActivity {
 
     Button user_select_owner_button, user_select_secretary_button, user_select_supervisor_button, user_select_mechanic_button;
-    TextView test_user_selection;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +25,13 @@ public class UserSelection extends AppCompatActivity {
         user_select_supervisor_button = (Button)findViewById(R.id.select_user_type_supervisor_button);
         user_select_mechanic_button = (Button)findViewById(R.id.select_user_type_mechanic_button);
 
-        test_user_selection = (TextView)findViewById(R.id.user_selection_button_label);
 
 
 
         user_select_owner_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GlobalVariables.user_type = "owner";
-                test_user_selection.setText(getString(R.string.user_selection_button_label) + " " + getString(R.string.select_user_type_owner_button));
+                GlobalVariables.user_type = "Owner";
                 switchActivities();
             }
         });
@@ -42,8 +39,7 @@ public class UserSelection extends AppCompatActivity {
         user_select_secretary_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GlobalVariables.user_type = "secretary";
-                test_user_selection.setText(getString(R.string.user_selection_button_label) + " " + getString(R.string.select_user_type_secretary_button));
+                GlobalVariables.user_type = "Secretary";
                 switchActivities();
             }
         });
@@ -51,8 +47,7 @@ public class UserSelection extends AppCompatActivity {
         user_select_supervisor_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GlobalVariables.user_type = "supervisor";
-                test_user_selection.setText(getString(R.string.user_selection_button_label) + " " + getString(R.string.select_user_type_supervisor_button));
+                GlobalVariables.user_type = "Supervisor";
                 switchActivities();
             }
         });
@@ -60,8 +55,7 @@ public class UserSelection extends AppCompatActivity {
         user_select_mechanic_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GlobalVariables.user_type = "mechanic";
-                test_user_selection.setText(getString(R.string.user_selection_button_label) + " " + getString(R.string.select_user_type_mechanic_button));
+                GlobalVariables.user_type = "Mechanic";
                 switchActivities();
             }
         });

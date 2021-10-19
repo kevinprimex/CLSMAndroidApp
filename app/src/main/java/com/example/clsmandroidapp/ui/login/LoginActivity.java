@@ -22,6 +22,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.example.GlobalVariables;
 import com.example.clsmandroidapp.R;
 import com.example.clsmandroidapp.ui.login.LoginViewModel;
 import com.example.clsmandroidapp.ui.login.LoginViewModelFactory;
@@ -31,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
     private ActivityLoginBinding binding;
+
+    TextView selected_user_label;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -122,6 +125,12 @@ public class LoginActivity extends AppCompatActivity {
                         passwordEditText.getText().toString());
             }
         });
+
+
+        // Dynamically changes the selected_user_label BUT DOES NOT SUPPORT BILINGUAL
+        selected_user_label = (TextView)findViewById(R.id.selected_user_button_label);
+        selected_user_label.setText("Selected User Type: " + GlobalVariables.user_type);
+
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
