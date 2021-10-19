@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLSM Android App</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresa o Registro</string>
+    <string name="action_sign_in_short">Ingresa</string>
+    <string name="welcome">"bienvenido !"</string>
+    <string name="invalid_username">No es un nombre de usuario válido</string>
+    <string name="invalid_password">La contraseña debe tener >5 caracteres</string>
+    <string name="login_failed">"Error de inicio de sesion"</string>
+    <!-- User Selection Buttons -->
+    <string name="user_selection_button_label">Seleccione el tipo de usuario:</string>
+    <string name="select_user_type_owner_button">Dueño</string>
+    <string name="select_user_type_secretary_button">Secretario</string>
+    <string name="select_user_type_supervisor_button">Supervisor</string>
+    <string name="select_user_type_mechanic_button">Mecánico</string>
+    <string name="colonial_logo_content_description">Logotipo Colonial</string>
+
+    <string name="user_selected_button_label">Tipo de usuario seleccionado: </string>
+    <string name="title_activity_feature_selection">SelecciónDeCaracterísticas</string>
+
+
+    <!-- Repair Diagram Feature -->
+
+    <string name="repair_diagram_label">Diagramas de reparación</string>
+
+
+    <string name="large_text">
+    </string>
+
+    <string name="action_settings">Ajustes</string>
+</resources>
