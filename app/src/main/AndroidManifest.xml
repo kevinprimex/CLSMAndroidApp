@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CLSMAndroidApp">
         <activity
-            android:name=".RepairDiagramsFeature"
-            android:exported="true" />
-        <activity
             android:name=".FeatureSelection"
             android:exported="true"
             android:label="@string/title_activity_feature_selection"
             android:theme="@style/Theme.CLSMAndroidApp.NoActionBar" />
+        <activity
+            android:name=".RepairDiagramsFeature"
+            android:exported="true" />
         <activity
             android:name=".UserSelection"
             android:exported="true"
